@@ -13,12 +13,12 @@
     <outputDir>
         <inputFile>./outputGrips</inputFile>
     </outputDir>
-    <sampleSize>0.787</sampleSize>
+    <sampleSize>0.1</sampleSize>
     <departureTimeDistribution>
-        <distribution>log-normal</distribution>
-        <sigma>0.25</sigma>
-        <mu>0.1</mu>
-        <earliest>0.0431587286913816</earliest>
-        <latest>1.3783154009540295</latest>
+        <distribution>normal</distribution>
+        <sigma>3600</sigma>
+        <mu>5400</mu>
+        <earliest>0.0</earliest>
+        <latest>10800</latest>
     </departureTimeDistribution>
 </grips_config>
