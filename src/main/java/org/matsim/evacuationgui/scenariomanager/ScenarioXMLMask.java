@@ -222,7 +222,7 @@ class ScenarioXMLMask extends JPanel implements ActionListener {
 
 		// sample size
 		JPanel panelSampleSize = new JPanel();
-		this.labelSampleSize = new JLabel("0.787");
+		this.labelSampleSize = new JLabel("0.1");
 		this.labelSampleSize.setPreferredSize(varInputSize);
 		this.sliderSampleSize = new JSlider(1, 1000, 787);
 		this.sliderSampleSize.setOrientation(JSlider.HORIZONTAL);
@@ -268,24 +268,24 @@ class ScenarioXMLMask extends JPanel implements ActionListener {
 		panelParams.setLayout(new GridLayout(2, 4));
 		this.labelSigma = new JLabel(" "
 				+ this.controller.getLocale().labelSigma());
-		this.textFieldSigma = new JTextField("0.25");
+		this.textFieldSigma = new JTextField("3600");
 		this.textFieldSigma.setPreferredSize(varInputSize);
 		// textFieldSigma.setBorder(emptyBorder);
 
 		this.labelMu = new JLabel(" " + this.controller.getLocale().labelMu());
-		this.textFieldMu = new JTextField("0.1");
+		this.textFieldMu = new JTextField("5400");
 		this.textFieldMu.setPreferredSize(varInputSize);
 		// textFieldMu.setBorder(emptyBorder);
 
 		this.labelEarliest = new JLabel(" "
 				+ this.controller.getLocale().labelEarliest());
-		this.textFieldEarliest = new JTextField("0.04315872");
+		this.textFieldEarliest = new JTextField("0.0");
 		this.textFieldEarliest.setPreferredSize(varInputSize);
 		// textFieldEarliest.setBorder(emptyBorder);
 
 		this.labelLatest = new JLabel(" "
 				+ this.controller.getLocale().labelLatest());
-		this.textFieldLatest = new JTextField("1.3783154");
+		this.textFieldLatest = new JTextField("10800");
 		this.textFieldLatest.setPreferredSize(varInputSize);
 		// textFieldLatest.setBorder(emptyBorder);
 

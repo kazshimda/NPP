@@ -70,7 +70,9 @@ public class EvacuationTimeGraphPanel extends AbstractDataPanel {
 		}
 
 		dataset.addSeries(timeSeries);
-
+		// TEST KazumasaShimada
+		org.matsim.evacuationgui.analysis.gui.EvacuationTimeDataExport.evacuationTimeDataExport(xs,ys);
+//
 		JFreeChart freeChart = ChartFactory.createTimeSeriesChart("evacuation time", "time (hh:mm:ss)", "agents", dataset, false, false, false);
 
 		XYPlot plot = (XYPlot) freeChart.getPlot();
